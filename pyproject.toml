@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Telegram Bot to post and track locations and availability of lactose free production."
 authors = ["DREU007 <dreu007@gmail.com>"]
 readme = "README.md"
-packages = [{include = "lactose_free_bot"}]
+packages = [{include = "lactosefree_bot"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
