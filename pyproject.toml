@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "lactose-free-bot"
+version = "0.1.0"
+description = "Telegram Bot to post and track locations and availability of lactose free production."
+authors = ["DREU007 <dreu007@gmail.com>"]
+readme = "README.md"
+packages = [{include = "lactose_free_bot"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-telegram-bot = "^20.4"
+python-dotenv = "^1.0.0"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
